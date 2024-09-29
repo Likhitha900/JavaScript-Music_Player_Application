@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music_Player_Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="Images/sunrise.png" alt="">
+        <audio src="Audios/Aylex.mp3"></audio>
+        <h1>White Rabbit</h1>
+        <h2>SPB</h2>
+        <div class="fixedContainer">
+            <div class="movableContainer"></div>
+        </div>
+        <div class="time">
+            <div class="currentTime">0.00</div>
+            <div class="totalTime">3:50</div>
+        </div>
+
+        <div class="icons">
+            <i class="fa-solid fa-shuffle"></i>
+            <i class="fa-solid fa-backward" id = "backward"></i>
+            <i class="fa-solid fa-play" id="play"></i>
+            <i class="fa-solid fa-forward" id = "forward"></i>
+            <i class="fa-solid fa-heart" id="heart"></i>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
